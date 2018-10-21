@@ -1,2 +1,2 @@
 # TI-Tutorials
-Tutorials for beginner developers
+Tutorials para iniciantes em desenvolvimente de aplicativos
