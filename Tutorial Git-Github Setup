@@ -1,0 +1,18 @@
+Tutorial - Configurando Git e Gihub 
+
+1) Abra o terminal e crie a Chave SSH (Caso não exista. Renovar anualmente)
+	ssh-keygen
+2) Abrir o arquivo id_rsa.pub	e copiar o conteúdo
+	No Linux => cd root/.ssh
+3) No GITHUB - Clicar no canto superior esquerdo para acessar o Setting 
+4) Copiar e colar os dados do arquivo id_rsa.pub
+5) No GITHUB abra o repositório desejado e clique em clone repositório (copie o link)	
+6) Dê permissão para acesso: chmod 400 ~/.ssh/id_rsa
+7) No diretório do projeto digite
+	git clone <link copiado acima>
+8) git config --global user.email “   “
+    git config --globao user.name “  “
+9) git add .
+10) git commit -m “ ”
+11) git push -v origin master 
+
